@@ -1,0 +1,154 @@
+/* Custom Header Styling */
+.custom-header {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* Navbar Link Hover Effect */
+.custom-nav-link {
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-nav-link:hover {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Button Styling */
+.custom-btn {
+    border-radius: 20px;
+    padding: 8px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Logo Styling */
+img {
+    padding: 3px;
+}
+
+/* Main Content Padding */
+main {
+    padding-top: 20px;
+}
+
+
+footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+}
+
+footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer .w3c-validation img {
+    width: 88px;
+    height: 31px;
+}
+
+.w3c-validation {
+    margin-top: 15px;
+}
+
+footer i {
+    font-size: 24px;
+}
+
+footer .nav li a:hover {
+    color: #0d6efd;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+form.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+
+/* Hero Section */
+.bg-primary {
+    background-color: #0d6efd !important;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+/* CTA Section */
+section.bg-primary {
+    background-color: #0d6efd;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+section.bg-primary .btn {
+    background-color: #ffffff;
+    color: #0d6efd;
+    border-radius: 30px;
+}
+
+section.bg-primary .btn:hover {
+    background-color: #ffffff;
+    color: #003366;
+}
+
+/* Testimonials */
+.blockquote {
+    background-color: #f8f9fa;
+    border-left: 5px solid #0d6efd;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.blockquote-footer {
+    color: #6c757d;
+}
+
+/* Custom size for the pie chart */
+.chart-small {
+    width: 100% !important;
+    max-width: 400px; /* Adjust the size here */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center it horizontally */
+}
+
+.comp-card {
+   width:90% !important;
+} 
+
+.comp-card textarea {
+   width: 55% !important;
+   height: 100px !important;
+
+}
+
+

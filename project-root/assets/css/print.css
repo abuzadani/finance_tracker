@@ -1,0 +1,39 @@
+@media print {
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        width: 100%;
+        max-width: none;
+
+    }
+
+    .navbar,header, footer, .footer, .btn {
+        display: none;
+    }
+
+    #main-header,#main-footer,#expense-filter,#total-budget{
+        display: none;
+
+    }
+    main h2{
+        text-align: center;
+
+    }
+
+    .table {
+        width: 100%;
+        border: 1px solid #ddd;
+    }
+
+    .table th, .table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    .table th {
+        background-color: #f8f9fa;
+    }
+}
